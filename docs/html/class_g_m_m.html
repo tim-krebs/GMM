@@ -74,22 +74,27 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8ce99499d67e722ac01bdb9698028a55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_m_m.html#a8ce99499d67e722ac01bdb9698028a55">GMM</a> ()</td></tr>
+<tr class="memdesc:a8ce99499d67e722ac01bdb9698028a55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="class_g_m_m.html#a8ce99499d67e722ac01bdb9698028a55" title="Construct a new GMM::GMM object.">GMM::GMM</a> object.  <a href="class_g_m_m.html#a8ce99499d67e722ac01bdb9698028a55">More...</a><br /></td></tr>
 <tr class="separator:a8ce99499d67e722ac01bdb9698028a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6cdf92d962cf8dcb0d87ba74467d8ec"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_m_m.html#ad6cdf92d962cf8dcb0d87ba74467d8ec">~GMM</a> ()</td></tr>
 <tr class="separator:ad6cdf92d962cf8dcb0d87ba74467d8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a848577e31e4d25eb052a9a1a88c19078"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_m_m.html#a848577e31e4d25eb052a9a1a88c19078">Expectation_Maximation</a> (const std::vector&lt; std::vector&lt; double &gt; &gt; melCepData, size_t frameCount)</td></tr>
 <tr class="memdesc:a848577e31e4d25eb052a9a1a88c19078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Train the <a class="el" href="class_g_m_m.html">GMM</a> with EM-Algorithm E: estimation step M: maximation step.  <a href="class_g_m_m.html#a848577e31e4d25eb052a9a1a88c19078">More...</a><br /></td></tr>
 <tr class="separator:a848577e31e4d25eb052a9a1a88c19078"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60e104a4e0d67327053d6d27274bf638"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_m_m.html#a60e104a4e0d67327053d6d27274bf638">Evaluation</a> (const std::vector&lt; std::vector&lt; double &gt; &gt; &amp;melCepData, size_t frameCount)</td></tr>
-<tr class="memdesc:a60e104a4e0d67327053d6d27274bf638"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decoder of the <a class="el" href="class_g_m_m.html">GMM</a>.  <a href="class_g_m_m.html#a60e104a4e0d67327053d6d27274bf638">More...</a><br /></td></tr>
-<tr class="separator:a60e104a4e0d67327053d6d27274bf638"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad569c7e9931b7a2800a126f42c15b7b8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_m_m.html#ad569c7e9931b7a2800a126f42c15b7b8">Probability</a> (const std::vector&lt; std::vector&lt; double &gt; &gt; &amp;melCepData, size_t frameCount)</td></tr>
-<tr class="separator:ad569c7e9931b7a2800a126f42c15b7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdc7d0e9ed49440cc162c74f9f1b6024"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_m_m.html#abdc7d0e9ed49440cc162c74f9f1b6024">Classify</a> (const std::vector&lt; std::vector&lt; double &gt; &gt; &amp;melCepData, size_t frameCount)</td></tr>
+<tr class="memdesc:abdc7d0e9ed49440cc162c74f9f1b6024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decoder of the <a class="el" href="class_g_m_m.html">GMM</a>.  <a href="class_g_m_m.html#abdc7d0e9ed49440cc162c74f9f1b6024">More...</a><br /></td></tr>
+<tr class="separator:abdc7d0e9ed49440cc162c74f9f1b6024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b8a9ed01732b5a4a3cdcb94e894918e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_m_m.html#a7b8a9ed01732b5a4a3cdcb94e894918e">Likelihood</a> (const std::vector&lt; std::vector&lt; double &gt; &gt; &amp;melCepData, size_t frameCount)</td></tr>
+<tr class="memdesc:a7b8a9ed01732b5a4a3cdcb94e894918e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Probability for each frame.  <a href="class_g_m_m.html#a7b8a9ed01732b5a4a3cdcb94e894918e">More...</a><br /></td></tr>
+<tr class="separator:a7b8a9ed01732b5a4a3cdcb94e894918e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a962ab32f1642fd95cef7e3fedd4d8609"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_m_m.html#a962ab32f1642fd95cef7e3fedd4d8609">LoadModel</a> (const std::string &amp;filePath)</td></tr>
+<tr class="memdesc:a962ab32f1642fd95cef7e3fedd4d8609"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="struct_model.html">Model</a> loader from save location.  <a href="class_g_m_m.html#a962ab32f1642fd95cef7e3fedd4d8609">More...</a><br /></td></tr>
 <tr class="separator:a962ab32f1642fd95cef7e3fedd4d8609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f420cd198ebc4691e3af43dfdccb993"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_m_m.html#a8f420cd198ebc4691e3af43dfdccb993">SaveModel</a> (const std::string &amp;filePath)</td></tr>
+<tr class="memdesc:a8f420cd198ebc4691e3af43dfdccb993"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_g_m_m.html">GMM</a> model saver to text files.  <a href="class_g_m_m.html#a8f420cd198ebc4691e3af43dfdccb993">More...</a><br /></td></tr>
 <tr class="separator:a8f420cd198ebc4691e3af43dfdccb993"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6b9e91ff8cc52dee704d726e2fb6b17"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_m_m.html#aa6b9e91ff8cc52dee704d726e2fb6b17">AddModel</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:aa6b9e91ff8cc52dee704d726e2fb6b17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new statistical <a class="el" href="struct_model.html">Model</a> with initial parameters.  <a href="class_g_m_m.html#aa6b9e91ff8cc52dee704d726e2fb6b17">More...</a><br /></td></tr>
 <tr class="separator:aa6b9e91ff8cc52dee704d726e2fb6b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38922622e2f649e0e9aafe1656c9881b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_m_m.html#a38922622e2f649e0e9aafe1656c9881b">AddModel</a> (const std::string &amp;filePath, const std::string &amp;name)</td></tr>
 <tr class="separator:a38922622e2f649e0e9aafe1656c9881b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -109,6 +114,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Construct a new <a class="el" href="class_g_m_m.html#a8ce99499d67e722ac01bdb9698028a55" title="Construct a new GMM::GMM object.">GMM::GMM</a> object. </p>
 
 </div>
 </div>
@@ -154,7 +161,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
+          <td class="paramname"><em>word</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -163,6 +170,14 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>(string) Filepath to load location </td></tr>
+    <tr><td class="paramname">word</td><td>(string) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -176,22 +191,31 @@ Public Member Functions</h2></td></tr>
           <td class="memname">bool GMM::AddModel </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
+          <td class="paramname"><em>word</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Create new statistical <a class="el" href="struct_model.html">Model</a> with initial parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">word</td><td>(string) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
 </div>
 </div>
-<a id="a60e104a4e0d67327053d6d27274bf638" name="a60e104a4e0d67327053d6d27274bf638"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60e104a4e0d67327053d6d27274bf638">&#9670;&nbsp;</a></span>Evaluation()</h2>
+<a id="abdc7d0e9ed49440cc162c74f9f1b6024" name="abdc7d0e9ed49440cc162c74f9f1b6024"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc7d0e9ed49440cc162c74f9f1b6024">&#9670;&nbsp;</a></span>Classify()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string GMM::Evaluation </td>
+          <td class="memname">std::string GMM::Classify </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::vector&lt; double &gt; &gt; &amp;&#160;</td>
           <td class="paramname"><em>melCepData</em>, </td>
@@ -260,32 +284,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a962ab32f1642fd95cef7e3fedd4d8609" name="a962ab32f1642fd95cef7e3fedd4d8609"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a962ab32f1642fd95cef7e3fedd4d8609">&#9670;&nbsp;</a></span>LoadModel()</h2>
+<a id="a7b8a9ed01732b5a4a3cdcb94e894918e" name="a7b8a9ed01732b5a4a3cdcb94e894918e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b8a9ed01732b5a4a3cdcb94e894918e">&#9670;&nbsp;</a></span>Likelihood()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool GMM::LoadModel </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>filePath</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad569c7e9931b7a2800a126f42c15b7b8" name="ad569c7e9931b7a2800a126f42c15b7b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad569c7e9931b7a2800a126f42c15b7b8">&#9670;&nbsp;</a></span>Probability()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double GMM::Probability </td>
+          <td class="memname">double GMM::Likelihood </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::vector&lt; double &gt; &gt; &amp;&#160;</td>
           <td class="paramname"><em>melCepData</em>, </td>
@@ -303,6 +309,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Calculates the Probability for each frame. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">melCepData</td><td>(2d-vector) matrix contains the frames with features: melCepData(frames x 39) </td></tr>
@@ -312,6 +320,33 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>(double) returns probability <br  />
  </dd></dl>
+
+</div>
+</div>
+<a id="a962ab32f1642fd95cef7e3fedd4d8609" name="a962ab32f1642fd95cef7e3fedd4d8609"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a962ab32f1642fd95cef7e3fedd4d8609">&#9670;&nbsp;</a></span>LoadModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GMM::LoadModel </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>filePath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="struct_model.html">Model</a> loader from save location. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>(string) File path to saved location </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the action was successful </dd></dl>
 
 </div>
 </div>
@@ -331,10 +366,19 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p><a class="el" href="class_g_m_m.html">GMM</a> model saver to text files. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>(string) Filepath to save location </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the action was successful </dd></dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/include/<a class="el" href="_g_m_m_8hpp_source.html">GMM.hpp</a></li>
+<li>/Users/timkrebs/OneDrive/Developer/C++/GMM/include/<a class="el" href="_g_m_m_8hpp_source.html">GMM.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
