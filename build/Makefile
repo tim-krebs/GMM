@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.21.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM
+CMAKE_SOURCE_DIR = /Users/timkrebs/OneDrive/Developer/C++/GMM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build
+CMAKE_BINARY_DIR = /Users/timkrebs/OneDrive/Developer/C++/GMM/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/CMakeFiles /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timkrebs/OneDrive/Developer/C++/GMM/build/CMakeFiles /Users/timkrebs/OneDrive/Developer/C++/GMM/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timkrebs/OneDrive/Developer/C++/GMM/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.21.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM
+CMAKE_SOURCE_DIR = /Users/timkrebs/OneDrive/Developer/C++/GMM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build
+CMAKE_BINARY_DIR = /Users/timkrebs/OneDrive/Developer/C++/GMM/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/CMakeFiles /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/app//CMakeFiles/progress.marks
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/CMakeFiles 0
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/timkrebs/OneDrive/Developer/C++/GMM/build/CMakeFiles /Users/timkrebs/OneDrive/Developer/C++/GMM/build/app//CMakeFiles/progress.marks
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/timkrebs/OneDrive/Developer/C++/GMM/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/clean
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/CMakeFiles/SpeechRecognition_Executable.dir/rule:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/SpeechRecognition_Executable.dir/rule
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/SpeechRecognition_Executable.dir/rule
 .PHONY : app/CMakeFiles/SpeechRecognition_Executable.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ SpeechRecognition_Executable: app/CMakeFiles/SpeechRecognition_Executable.dir/ru
 
 # fast build rule for target.
 SpeechRecognition_Executable/fast:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/SpeechRecognition_Executable.dir/build.make app/CMakeFiles/SpeechRecognition_Executable.dir/build
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/SpeechRecognition_Executable.dir/build.make app/CMakeFiles/SpeechRecognition_Executable.dir/build
 .PHONY : SpeechRecognition_Executable/fast
 
 main.o: main.cpp.o
@@ -135,7 +135,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/SpeechRecognition_Executable.dir/build.make app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/SpeechRecognition_Executable.dir/build.make app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -143,7 +143,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/SpeechRecognition_Executable.dir/build.make app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.i
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/SpeechRecognition_Executable.dir/build.make app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -151,7 +151,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/SpeechRecognition_Executable.dir/build.make app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.s
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/SpeechRecognition_Executable.dir/build.make app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

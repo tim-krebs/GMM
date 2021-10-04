@@ -11,7 +11,7 @@
 						1,
 						2
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -26,7 +26,7 @@
 				},
 				{
 					"build" : "src",
-					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -41,7 +41,7 @@
 				},
 				{
 					"build" : "app",
-					"jsonFile" : "directory-app-Debug-94c5f210ca04b1028ae5.json",
+					"jsonFile" : "directory-app-Release-94c5f210ca04b1028ae5.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -55,7 +55,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -80,28 +80,28 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "DataHandler::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DataHandler-Debug-b1abd1d5fd82507bacd4.json",
+					"jsonFile" : "target-DataHandler-Release-ccc9d7a4c2964bf2b2bc.json",
 					"name" : "DataHandler",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "SpeechRecognition_Executable::@5f5a17c01335469806cb",
-					"jsonFile" : "target-SpeechRecognition_Executable-Debug-bcaf60ee775797f57507.json",
+					"jsonFile" : "target-SpeechRecognition_Executable-Release-08ae039f9649d5ec1349.json",
 					"name" : "SpeechRecognition_Executable",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "SpeechRecognition_MyLib::@145eef247bfb46b6828c",
-					"jsonFile" : "target-SpeechRecognition_MyLib-Debug-13315aead52559c24db0.json",
+					"jsonFile" : "target-SpeechRecognition_MyLib-Release-cf4dd6f187ffe82eb613.json",
 					"name" : "SpeechRecognition_MyLib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "SpeechRecognition_docs::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SpeechRecognition_docs-Debug-b80b1b5ab6c214997698.json",
+					"jsonFile" : "target-SpeechRecognition_docs-Release-b80b1b5ab6c214997698.json",
 					"name" : "SpeechRecognition_docs",
 					"projectIndex" : 0
 				}
@@ -111,8 +111,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build",
-		"source" : "/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM"
+		"build" : "/Users/timkrebs/OneDrive/Developer/C++/GMM/build",
+		"source" : "/Users/timkrebs/OneDrive/Developer/C++/GMM"
 	},
 	"version" : 
 	{

@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.21.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM
+CMAKE_SOURCE_DIR = /Users/timkrebs/OneDrive/Developer/C++/GMM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build
+CMAKE_BINARY_DIR = /Users/timkrebs/OneDrive/Developer/C++/GMM/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/SpeechRecognition_Executable.dir/depend.make
@@ -72,16 +72,16 @@ include app/CMakeFiles/SpeechRecognition_Executable.dir/flags.make
 app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o: app/CMakeFiles/SpeechRecognition_Executable.dir/flags.make
 app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o: ../app/main.cpp
 app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o: app/CMakeFiles/SpeechRecognition_Executable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o"
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/app && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o -MF CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o.d -o CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o -c /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/app/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/timkrebs/OneDrive/Developer/C++/GMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o"
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build/app && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o -MF CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o.d -o CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o -c /Users/timkrebs/OneDrive/Developer/C++/GMM/app/main.cpp
 
 app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.i"
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/app && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/app/main.cpp > CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.i
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build/app && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timkrebs/OneDrive/Developer/C++/GMM/app/main.cpp > CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.i
 
 app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.s"
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/app && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/app/main.cpp -o CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.s
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build/app && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timkrebs/OneDrive/Developer/C++/GMM/app/main.cpp -o CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.s
 
 # Object files for target SpeechRecognition_Executable
 SpeechRecognition_Executable_OBJECTS = \
@@ -89,24 +89,24 @@ SpeechRecognition_Executable_OBJECTS = \
 
 # External object files for target SpeechRecognition_Executable
 SpeechRecognition_Executable_EXTERNAL_OBJECTS = \
-"/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o"
+"/Users/timkrebs/OneDrive/Developer/C++/GMM/build/src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o"
 
 bin/SpeechRecognition_Executable: app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o
 bin/SpeechRecognition_Executable: src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o
 bin/SpeechRecognition_Executable: app/CMakeFiles/SpeechRecognition_Executable.dir/build.make
 bin/SpeechRecognition_Executable: app/CMakeFiles/SpeechRecognition_Executable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/SpeechRecognition_Executable"
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SpeechRecognition_Executable.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/timkrebs/OneDrive/Developer/C++/GMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/SpeechRecognition_Executable"
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SpeechRecognition_Executable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/SpeechRecognition_Executable.dir/build: bin/SpeechRecognition_Executable
 .PHONY : app/CMakeFiles/SpeechRecognition_Executable.dir/build
 
 app/CMakeFiles/SpeechRecognition_Executable.dir/clean:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/app && $(CMAKE_COMMAND) -P CMakeFiles/SpeechRecognition_Executable.dir/cmake_clean.cmake
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build/app && $(CMAKE_COMMAND) -P CMakeFiles/SpeechRecognition_Executable.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/SpeechRecognition_Executable.dir/clean
 
 app/CMakeFiles/SpeechRecognition_Executable.dir/depend:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/app /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/app /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/app/CMakeFiles/SpeechRecognition_Executable.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/timkrebs/OneDrive/Developer/C++/GMM /Users/timkrebs/OneDrive/Developer/C++/GMM/app /Users/timkrebs/OneDrive/Developer/C++/GMM/build /Users/timkrebs/OneDrive/Developer/C++/GMM/build/app /Users/timkrebs/OneDrive/Developer/C++/GMM/build/app/CMakeFiles/SpeechRecognition_Executable.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/SpeechRecognition_Executable.dir/depend
 

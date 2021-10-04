@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build"
+			"value" : "/Users/timkrebs/OneDrive/Developer/C++/GMM/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -378,6 +378,10 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
 				}
@@ -455,7 +459,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM"
+			"value" : "/Users/timkrebs/OneDrive/Developer/C++/GMM"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1135,7 +1139,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build"
+			"value" : "/Users/timkrebs/OneDrive/Developer/C++/GMM/build"
 		},
 		{
 			"name" : "SpeechRecognition_Project_IS_TOP_LEVEL",
@@ -1159,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM"
+			"value" : "/Users/timkrebs/OneDrive/Developer/C++/GMM"
 		},
 		{
 			"name" : "USE_PRINTF",

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/app/main.cpp" "app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o" "gcc" "app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o.d"
+  "/Users/timkrebs/OneDrive/Developer/C++/GMM/app/main.cpp" "app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o" "gcc" "app/CMakeFiles/SpeechRecognition_Executable.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

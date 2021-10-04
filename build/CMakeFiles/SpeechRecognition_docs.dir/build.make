@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.21.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM
+CMAKE_SOURCE_DIR = /Users/timkrebs/OneDrive/Developer/C++/GMM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build
+CMAKE_BINARY_DIR = /Users/timkrebs/OneDrive/Developer/C++/GMM/build
 
 # Utility rule file for SpeechRecognition_docs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/SpeechRecognition_docs.dir/compiler_depend.make
 include CMakeFiles/SpeechRecognition_docs.dir/progress.make
 
 CMakeFiles/SpeechRecognition_docs:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/docs && /usr/local/bin/doxygen /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/Doxyfile
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/docs && /usr/local/bin/doxygen /Users/timkrebs/OneDrive/Developer/C++/GMM/build/Doxyfile
 
 SpeechRecognition_docs: CMakeFiles/SpeechRecognition_docs
 SpeechRecognition_docs: CMakeFiles/SpeechRecognition_docs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/SpeechRecognition_docs.dir/clean:
 .PHONY : CMakeFiles/SpeechRecognition_docs.dir/clean
 
 CMakeFiles/SpeechRecognition_docs.dir/depend:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/CMakeFiles/SpeechRecognition_docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/timkrebs/OneDrive/Developer/C++/GMM /Users/timkrebs/OneDrive/Developer/C++/GMM /Users/timkrebs/OneDrive/Developer/C++/GMM/build /Users/timkrebs/OneDrive/Developer/C++/GMM/build /Users/timkrebs/OneDrive/Developer/C++/GMM/build/CMakeFiles/SpeechRecognition_docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SpeechRecognition_docs.dir/depend
 

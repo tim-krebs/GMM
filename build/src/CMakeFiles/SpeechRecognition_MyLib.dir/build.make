@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.21.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM
+CMAKE_SOURCE_DIR = /Users/timkrebs/OneDrive/Developer/C++/GMM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build
+CMAKE_BINARY_DIR = /Users/timkrebs/OneDrive/Developer/C++/GMM/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/SpeechRecognition_MyLib.dir/depend.make
@@ -72,16 +72,16 @@ include src/CMakeFiles/SpeechRecognition_MyLib.dir/flags.make
 src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o: src/CMakeFiles/SpeechRecognition_MyLib.dir/flags.make
 src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o: ../src/DataHandler.cpp
 src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o: src/CMakeFiles/SpeechRecognition_MyLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o"
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o -MF CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o.d -o CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o -c /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/src/DataHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/timkrebs/OneDrive/Developer/C++/GMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o"
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o -MF CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o.d -o CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o -c /Users/timkrebs/OneDrive/Developer/C++/GMM/src/DataHandler.cpp
 
 src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.i"
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/src/DataHandler.cpp > CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.i
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timkrebs/OneDrive/Developer/C++/GMM/src/DataHandler.cpp > CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.i
 
 src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.s"
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/src/DataHandler.cpp -o CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.s
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timkrebs/OneDrive/Developer/C++/GMM/src/DataHandler.cpp -o CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.s
 
 SpeechRecognition_MyLib: src/CMakeFiles/SpeechRecognition_MyLib.dir/DataHandler.cpp.o
 SpeechRecognition_MyLib: src/CMakeFiles/SpeechRecognition_MyLib.dir/build.make
@@ -92,10 +92,10 @@ src/CMakeFiles/SpeechRecognition_MyLib.dir/build: SpeechRecognition_MyLib
 .PHONY : src/CMakeFiles/SpeechRecognition_MyLib.dir/build
 
 src/CMakeFiles/SpeechRecognition_MyLib.dir/clean:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/src && $(CMAKE_COMMAND) -P CMakeFiles/SpeechRecognition_MyLib.dir/cmake_clean.cmake
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build/src && $(CMAKE_COMMAND) -P CMakeFiles/SpeechRecognition_MyLib.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/SpeechRecognition_MyLib.dir/clean
 
 src/CMakeFiles/SpeechRecognition_MyLib.dir/depend:
-	cd /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/src /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/src /Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/build/src/CMakeFiles/SpeechRecognition_MyLib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/timkrebs/OneDrive/Developer/C++/GMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/timkrebs/OneDrive/Developer/C++/GMM /Users/timkrebs/OneDrive/Developer/C++/GMM/src /Users/timkrebs/OneDrive/Developer/C++/GMM/build /Users/timkrebs/OneDrive/Developer/C++/GMM/build/src /Users/timkrebs/OneDrive/Developer/C++/GMM/build/src/CMakeFiles/SpeechRecognition_MyLib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/SpeechRecognition_MyLib.dir/depend
 

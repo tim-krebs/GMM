@@ -75,26 +75,26 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk"
+					"fragment" : "-O3 -DNDEBUG  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/Timer"
+					"path" : "/Users/timkrebs/OneDrive/Developer/C++/GMM/Timer"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/include"
+					"path" : "/Users/timkrebs/OneDrive/Developer/C++/GMM/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/Filter"
+					"path" : "/Users/timkrebs/OneDrive/Developer/C++/GMM/Filter"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/timkrebs/OneDrive/Uni/8.Semester/Bachelorarbeit/02_Programme/C++/ASR_GMM/Matrix"
+					"path" : "/Users/timkrebs/OneDrive/Developer/C++/GMM/Matrix"
 				},
 				{
 					"backtrace" : 7,
