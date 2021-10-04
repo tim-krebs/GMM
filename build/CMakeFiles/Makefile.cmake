@@ -29,6 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/cmake/3.21.1/share/cmake/Modules/Compiler/Clang.cmake"
   "/usr/local/Cellar/cmake/3.21.1/share/cmake/Modules/Compiler/GNU.cmake"
   "/usr/local/Cellar/cmake/3.21.1/share/cmake/Modules/FindDoxygen.cmake"
+  "/usr/local/Cellar/cmake/3.21.1/share/cmake/Modules/FindGit.cmake"
   "/usr/local/Cellar/cmake/3.21.1/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/local/Cellar/cmake/3.21.1/share/cmake/Modules/FindPackageMessage.cmake"
   "/usr/local/Cellar/cmake/3.21.1/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
