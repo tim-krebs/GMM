@@ -10,5 +10,6 @@ var searchData=
   ['model_7',['Model',['../struct_model.html',1,'']]],
   ['ms_8',['ms',['../_timer_8hpp.html#a54a40dcfc7c1b6a4ca46202637ab4825',1,'Timer.hpp']]],
   ['multiplication_9',['Multiplication',['../class_matrix.html#a591654843a1f42168294a2435fe902a1',1,'Matrix::Multiplication(int M_rows, int M_columns, int N_columns, float **M, float **N, float **O)'],['../class_matrix.html#a3f8337360c1e02fa837ef0977698eebf',1,'Matrix::Multiplication(int M_rows, int M_columns, int N_columns, double **M, double **N, double **O)']]],
-  ['my_5flib_2ecc_10',['my_lib.cc',['../my__lib_8cc.html',1,'']]]
+  ['my_5flib_2ecpp_10',['my_lib.cpp',['../my__lib_8cpp.html',1,'']]],
+  ['my_5flib_2eh_11',['my_lib.h',['../my__lib_8h.html',1,'']]]
 ];
