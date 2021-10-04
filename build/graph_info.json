@@ -1,0 +1,18 @@
+{
+ "options": [
+  [
+   "catch2:with_main",
+   "False"
+  ],
+  [
+   "cxxopts:unicode",
+   "False"
+  ]
+ ],
+ "root": {
+  "name": null,
+  "version": null,
+  "user": null,
+  "channel": null
+ }
+}
