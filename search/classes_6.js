@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wav_116',['WAV',['../structWAV.html',1,'']]]
+  ['timer_121',['Timer',['../classTimer.html',1,'']]]
 ];

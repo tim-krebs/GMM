@@ -84,11 +84,11 @@ $(function() {
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structModel.html">   13</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structModel.html">Model</a></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">   15</a></span>&#160;    std::vector&lt;double&gt; <a class="code" href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">weight</a>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">   16</a></span>&#160;    std::vector&lt;std::vector&lt;double&gt; &gt; <a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">   17</a></span>&#160;    std::vector&lt;std::vector&lt;double&gt; &gt; <a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structModel.html#a464c789cf69c8ddf4494dbb2d300313e">   18</a></span>&#160;    std::vector&lt;std::vector&lt;double&gt; &gt; <a class="code" href="structModel.html#a464c789cf69c8ddf4494dbb2d300313e">invert_covariance</a>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structModel.html#ab1af23fd51748d2f6534a52fc3b938c2">   19</a></span>&#160;    std::vector&lt;double&gt; <a class="code" href="structModel.html#ab1af23fd51748d2f6534a52fc3b938c2">ExpCoeff</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">   15</a></span>&#160;    std::vector&lt;double&gt; <a class="code" href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">weight</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">   16</a></span>&#160;    std::vector&lt;std::vector&lt;double&gt; &gt; <a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">   17</a></span>&#160;    std::vector&lt;std::vector&lt;double&gt; &gt; <a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structModel.html#a98f2837a9026eebb4769fb0fecdbbe05">   18</a></span>&#160;    std::vector&lt;std::vector&lt;double&gt; &gt; <a class="code" href="structModel.html#a98f2837a9026eebb4769fb0fecdbbe05">invert_covariance</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structModel.html#aa83f23ae762f2e8b616405f6029cd3c7">   19</a></span>&#160;    std::vector&lt;double&gt; <a class="code" href="structModel.html#aa83f23ae762f2e8b616405f6029cd3c7">ExpCoeff</a>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classGMM.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="classGMM.html">GMM</a></div>
@@ -167,7 +167,7 @@ $(function() {
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="comment">//*** Initialization</span></div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; m_MixDim; i++)</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    {</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        m_Model.<a class="code" href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">weight</a>[i] = 1.0 / m_MixDim;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        m_Model.<a class="code" href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">weight</a>[i] = 1.0 / m_MixDim;</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
@@ -177,7 +177,7 @@ $(function() {
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    {</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; m_MfccDim; i++)</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        {</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            m_Model.<a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>[i][j] = melCepData[step * (j + 1) -1][i];</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            m_Model.<a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>[i][j] = melCepData[step * (j + 1) -1][i];</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        }</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
@@ -185,7 +185,7 @@ $(function() {
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    {</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; m_MfccDim; j++)</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        {</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            m_Model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>[i][j] = 1.0;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            m_Model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>[i][j] = 1.0;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        }</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
@@ -210,7 +210,7 @@ $(function() {
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        {</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; m_MixDim; j++)</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            {</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                normProb[i][j] *= m_Model.<a class="code" href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">weight</a>[j] / mixedProb[i];</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                normProb[i][j] *= m_Model.<a class="code" href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">weight</a>[j] / mixedProb[i];</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            }</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        }</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
@@ -227,7 +227,7 @@ $(function() {
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="comment">// renew mixture coefficients</span></div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; m_MixDim; i++)</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        {</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            m_Model.<a class="code" href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">weight</a>[i] = sumProb[i] / frameCount;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            m_Model.<a class="code" href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">weight</a>[i] = sumProb[i] / frameCount;</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        }</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="comment">// renew mean</span></div>
@@ -239,7 +239,7 @@ $(function() {
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> k = 0; k &lt; frameCount; k++)</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                    tempProb[i][j] += melCepData[k][i] * normProb[k][j];</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160; </div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                m_Model.<a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>[i][j] = tempProb[i][j] / sumProb[j];</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                m_Model.<a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>[i][j] = tempProb[i][j] / sumProb[j];</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;            }</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        }</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160; </div>
@@ -262,10 +262,10 @@ $(function() {
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        {</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; m_MfccDim; j++)</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            {</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                m_Model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>[i][j] = tempProb[j][i] - m_Model.<a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>[j][i] * m_Model.<a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>[j][i];</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                <span class="keywordflow">if</span>(m_Model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>[i][j] &lt;= m_MinCov)</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                m_Model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>[i][j] = tempProb[j][i] - m_Model.<a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>[j][i] * m_Model.<a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>[j][i];</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                <span class="keywordflow">if</span>(m_Model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>[i][j] &lt;= m_MinCov)</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                {</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                    m_Model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>[i][j] = m_MinCov;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                    m_Model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>[i][j] = m_MinCov;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                }</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            }</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        }</div>
@@ -359,7 +359,7 @@ $(function() {
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160; </div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; m_MixDim; i++)</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    {</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        outFile &lt;&lt; m_Model.<a class="code" href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">weight</a>[i] &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        outFile &lt;&lt; m_Model.<a class="code" href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">weight</a>[i] &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    }</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160; </div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160; </div>
@@ -369,7 +369,7 @@ $(function() {
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    {</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; m_MixDim; j++)</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        {</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;           outFile &lt;&lt; m_Model.<a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>[i][j] &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;           outFile &lt;&lt; m_Model.<a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>[i][j] &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        }</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160; </div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        outFile &lt;&lt; std::endl;</div>
@@ -381,7 +381,7 @@ $(function() {
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    {</div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; m_MfccDim; j++)</div>
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        {</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;            outFile &lt;&lt; m_Model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>[i][j] &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;            outFile &lt;&lt; m_Model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>[i][j] &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        }</div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160; </div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        outFile &lt;&lt; std::endl;</div>
@@ -404,7 +404,7 @@ $(function() {
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    inFile &gt;&gt; title;</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; m_MixDim; i++)</div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    {</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        inFile &gt;&gt; m_Model.<a class="code" href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">weight</a>[i];</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        inFile &gt;&gt; m_Model.<a class="code" href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">weight</a>[i];</div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    }</div>
 <div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160; </div>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    inFile &gt;&gt; title;</div>
@@ -412,7 +412,7 @@ $(function() {
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    {</div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; m_MixDim; j++)</div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        {</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;            inFile &gt;&gt; m_Model.<a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>[i][j];</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;            inFile &gt;&gt; m_Model.<a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>[i][j];</div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        }</div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    }</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160; </div>
@@ -421,7 +421,7 @@ $(function() {
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    {</div>
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0; j&lt;m_MfccDim; j++)</div>
 <div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        {</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;            inFile &gt;&gt; m_Model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>[i][j];</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;            inFile &gt;&gt; m_Model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>[i][j];</div>
 <div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        }</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    }</div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160; </div>
@@ -438,17 +438,17 @@ $(function() {
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160; </div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; m_MixDim; i++)</div>
 <div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    {</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        model.<a class="code" href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">weight</a>[i] = m_Model.<a class="code" href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">weight</a>[i];</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        model.<a class="code" href="structModel.html#ab1af23fd51748d2f6534a52fc3b938c2">ExpCoeff</a>[i] = m_Model.<a class="code" href="structModel.html#ab1af23fd51748d2f6534a52fc3b938c2">ExpCoeff</a>[i];</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        model.<a class="code" href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">weight</a>[i] = m_Model.<a class="code" href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">weight</a>[i];</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        model.<a class="code" href="structModel.html#aa83f23ae762f2e8b616405f6029cd3c7">ExpCoeff</a>[i] = m_Model.<a class="code" href="structModel.html#aa83f23ae762f2e8b616405f6029cd3c7">ExpCoeff</a>[i];</div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    }</div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160; </div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; m_MfccDim; i++)</div>
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    {</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; m_MixDim; j++)</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        {</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;            model.<a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>[i][j] = m_Model.<a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>[i][j];</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;            model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>[j][i] = m_Model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>[j][i];</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;            model.<a class="code" href="structModel.html#a464c789cf69c8ddf4494dbb2d300313e">invert_covariance</a>[j][i] = m_Model.<a class="code" href="structModel.html#a464c789cf69c8ddf4494dbb2d300313e">invert_covariance</a>[j][i];</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;            model.<a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>[i][j] = m_Model.<a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>[i][j];</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;            model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>[j][i] = m_Model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>[j][i];</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;            model.<a class="code" href="structModel.html#a98f2837a9026eebb4769fb0fecdbbe05">invert_covariance</a>[j][i] = m_Model.<a class="code" href="structModel.html#a98f2837a9026eebb4769fb0fecdbbe05">invert_covariance</a>[j][i];</div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        }</div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    }</div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160; </div>
@@ -483,7 +483,7 @@ $(function() {
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;        {</div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> k = 0; k &lt; m_MfccDim; k++)</div>
 <div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;            {</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;                expMatrix[i][j] += (pow((melCepData[i][k] - model.<a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>[k][j]),2 )) * model.<a class="code" href="structModel.html#a464c789cf69c8ddf4494dbb2d300313e">invert_covariance</a>[j][k];</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;                expMatrix[i][j] += (pow((melCepData[i][k] - model.<a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>[k][j]),2 )) * model.<a class="code" href="structModel.html#a98f2837a9026eebb4769fb0fecdbbe05">invert_covariance</a>[j][k];</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;            }</div>
 <div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;        }</div>
 <div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    }</div>
@@ -501,8 +501,8 @@ $(function() {
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; m_MixDim; j++)</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;        {</div>
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;            expMatrix[i][j] = exp(expMatrix[i][j] - maxMatrix[i]);</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;            normProb[i][j] = expMatrix[i][j] * model.<a class="code" href="structModel.html#ab1af23fd51748d2f6534a52fc3b938c2">ExpCoeff</a>[j];</div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;            mixedProb[i] = mixedProb[i] + normProb[i][j] * model.<a class="code" href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">weight</a>[j];</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;            normProb[i][j] = expMatrix[i][j] * model.<a class="code" href="structModel.html#aa83f23ae762f2e8b616405f6029cd3c7">ExpCoeff</a>[j];</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;            mixedProb[i] = mixedProb[i] + normProb[i][j] * model.<a class="code" href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">weight</a>[j];</div>
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;        }</div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;        prob += log(mixedProb[i]) + maxMatrix[i];</div>
 <div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;    }</div>
@@ -517,36 +517,36 @@ $(function() {
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;{</div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    <a class="code" href="structModel.html">Model</a> model;</div>
 <div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160; </div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    model.<a class="code" href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">weight</a>.resize(m_MixDim);</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    model.<a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>.resize(m_MfccDim);</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    model.<a class="code" href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">weight</a>.resize(m_MixDim);</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    model.<a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>.resize(m_MfccDim);</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160; </div>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; m_MfccDim; i++)</div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    {</div>
-<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;        model.<a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>[i].resize(m_MixDim);</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;        model.<a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>[i].resize(m_MixDim);</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    }</div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160; </div>
 <div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;    <span class="comment">// Resize matrix to m_MixDim (number of mixtures)</span></div>
-<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>.resize(m_MixDim);</div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    model.<a class="code" href="structModel.html#a464c789cf69c8ddf4494dbb2d300313e">invert_covariance</a>.resize(m_MixDim);</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>.resize(m_MixDim);</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    model.<a class="code" href="structModel.html#a98f2837a9026eebb4769fb0fecdbbe05">invert_covariance</a>.resize(m_MixDim);</div>
 <div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160; </div>
 <div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; m_MixDim; i++)</div>
 <div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;    {</div>
-<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;        model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>[i].resize(m_MfccDim);</div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;        model.<a class="code" href="structModel.html#a464c789cf69c8ddf4494dbb2d300313e">invert_covariance</a>[i].resize(m_MfccDim);</div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;        model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>[i].resize(m_MfccDim);</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;        model.<a class="code" href="structModel.html#a98f2837a9026eebb4769fb0fecdbbe05">invert_covariance</a>[i].resize(m_MfccDim);</div>
 <div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    }</div>
 <div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160; </div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    model.<a class="code" href="structModel.html#ab1af23fd51748d2f6534a52fc3b938c2">ExpCoeff</a>.resize(m_MixDim);</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    model.<a class="code" href="structModel.html#aa83f23ae762f2e8b616405f6029cd3c7">ExpCoeff</a>.resize(m_MixDim);</div>
 <div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160; </div>
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;    <span class="keywordflow">return</span> model;</div>
 <div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;}</div>
 <div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160; </div>
 <div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;<span class="keywordtype">void</span> GMM::delModel(<a class="code" href="structModel.html">Model</a> model)</div>
 <div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;{</div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    model.<a class="code" href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">weight</a>.clear();</div>
-<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    model.<a class="code" href="structModel.html#aef11370221f2c329d5284ee078b72f6a">mean</a>.clear();</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;    model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>.clear();</div>
-<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    model.<a class="code" href="structModel.html#a464c789cf69c8ddf4494dbb2d300313e">invert_covariance</a>.clear();</div>
-<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    model.<a class="code" href="structModel.html#ab1af23fd51748d2f6534a52fc3b938c2">ExpCoeff</a>.clear();</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    model.<a class="code" href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">weight</a>.clear();</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    model.<a class="code" href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">mean</a>.clear();</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;    model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>.clear();</div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    model.<a class="code" href="structModel.html#a98f2837a9026eebb4769fb0fecdbbe05">invert_covariance</a>.clear();</div>
+<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    model.<a class="code" href="structModel.html#aa83f23ae762f2e8b616405f6029cd3c7">ExpCoeff</a>.clear();</div>
 <div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;}</div>
 <div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160; </div>
 <div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;<span class="keywordtype">void</span> GMM::completeModel(<a class="code" href="structModel.html">Model</a>&amp; model)</div>
@@ -555,37 +555,37 @@ $(function() {
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160; </div>
 <div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; m_MixDim; i++)</div>
 <div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;    {</div>
-<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;        model.<a class="code" href="structModel.html#ab1af23fd51748d2f6534a52fc3b938c2">ExpCoeff</a>[i] = 1.0;</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;        model.<a class="code" href="structModel.html#aa83f23ae762f2e8b616405f6029cd3c7">ExpCoeff</a>[i] = 1.0;</div>
 <div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160; </div>
 <div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; m_MfccDim; j++)</div>
 <div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;        {</div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;            model.<a class="code" href="structModel.html#ab1af23fd51748d2f6534a52fc3b938c2">ExpCoeff</a>[i] *= 1.0 / model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>[i][j];</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;            model.<a class="code" href="structModel.html#aa83f23ae762f2e8b616405f6029cd3c7">ExpCoeff</a>[i] *= 1.0 / model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>[i][j];</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;        }</div>
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160; </div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;        model.<a class="code" href="structModel.html#ab1af23fd51748d2f6534a52fc3b938c2">ExpCoeff</a>[i] = x * sqrt(model.<a class="code" href="structModel.html#ab1af23fd51748d2f6534a52fc3b938c2">ExpCoeff</a>[i]);</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;        model.<a class="code" href="structModel.html#aa83f23ae762f2e8b616405f6029cd3c7">ExpCoeff</a>[i] = x * sqrt(model.<a class="code" href="structModel.html#aa83f23ae762f2e8b616405f6029cd3c7">ExpCoeff</a>[i]);</div>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;    }</div>
 <div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160; </div>
 <div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; m_MixDim; i++)</div>
 <div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;    {</div>
 <div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; m_MfccDim; j++)</div>
 <div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;        {</div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;            model.<a class="code" href="structModel.html#a464c789cf69c8ddf4494dbb2d300313e">invert_covariance</a>[i][j] = (-0.5) / model.<a class="code" href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">covariance</a>[i][j];</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;            model.<a class="code" href="structModel.html#a98f2837a9026eebb4769fb0fecdbbe05">invert_covariance</a>[i][j] = (-0.5) / model.<a class="code" href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">covariance</a>[i][j];</div>
 <div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;        }</div>
 <div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;    }</div>
 <div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="astructModel_html_ab1af23fd51748d2f6534a52fc3b938c2"><div class="ttname"><a href="structModel.html#ab1af23fd51748d2f6534a52fc3b938c2">Model::ExpCoeff</a></div><div class="ttdeci">std::vector&lt; double &gt; ExpCoeff</div><div class="ttdef"><b>Definition:</b> GMM.hpp:19</div></div>
 <div class="ttc" id="aclassGMM_html_abdc7d0e9ed49440cc162c74f9f1b6024"><div class="ttname"><a href="classGMM.html#abdc7d0e9ed49440cc162c74f9f1b6024">GMM::Classify</a></div><div class="ttdeci">std::string Classify(const std::vector&lt; std::vector&lt; double &gt; &gt; &amp;melCepData, size_t frameCount)</div><div class="ttdoc">Decoder of the GMM.</div><div class="ttdef"><b>Definition:</b> GMM.hpp:234</div></div>
 <div class="ttc" id="aclassGMM_html_a8f420cd198ebc4691e3af43dfdccb993"><div class="ttname"><a href="classGMM.html#a8f420cd198ebc4691e3af43dfdccb993">GMM::SaveModel</a></div><div class="ttdeci">bool SaveModel(const std::string &amp;filePath)</div><div class="ttdoc">GMM model saver to text files.</div><div class="ttdef"><b>Definition:</b> GMM.hpp:309</div></div>
 <div class="ttc" id="aclassGMM_html_a962ab32f1642fd95cef7e3fedd4d8609"><div class="ttname"><a href="classGMM.html#a962ab32f1642fd95cef7e3fedd4d8609">GMM::LoadModel</a></div><div class="ttdeci">bool LoadModel(const std::string &amp;filePath)</div><div class="ttdoc">Model loader from save location.</div><div class="ttdef"><b>Definition:</b> GMM.hpp:361</div></div>
-<div class="ttc" id="astructModel_html_a4ebd9c5a9ff9245e65384cc776c258cb"><div class="ttname"><a href="structModel.html#a4ebd9c5a9ff9245e65384cc776c258cb">Model::covariance</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; double &gt; &gt; covariance</div><div class="ttdef"><b>Definition:</b> GMM.hpp:17</div></div>
-<div class="ttc" id="astructModel_html_aef11370221f2c329d5284ee078b72f6a"><div class="ttname"><a href="structModel.html#aef11370221f2c329d5284ee078b72f6a">Model::mean</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; double &gt; &gt; mean</div><div class="ttdef"><b>Definition:</b> GMM.hpp:16</div></div>
-<div class="ttc" id="astructModel_html_a464c789cf69c8ddf4494dbb2d300313e"><div class="ttname"><a href="structModel.html#a464c789cf69c8ddf4494dbb2d300313e">Model::invert_covariance</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; double &gt; &gt; invert_covariance</div><div class="ttdef"><b>Definition:</b> GMM.hpp:18</div></div>
+<div class="ttc" id="astructModel_html_a98f2837a9026eebb4769fb0fecdbbe05"><div class="ttname"><a href="structModel.html#a98f2837a9026eebb4769fb0fecdbbe05">Model::invert_covariance</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; double &gt; &gt; invert_covariance</div><div class="ttdef"><b>Definition:</b> GMM.hpp:18</div></div>
+<div class="ttc" id="astructModel_html_a10da9fc9bb0ecbd50a0d306522848e60"><div class="ttname"><a href="structModel.html#a10da9fc9bb0ecbd50a0d306522848e60">Model::mean</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; double &gt; &gt; mean</div><div class="ttdef"><b>Definition:</b> GMM.hpp:16</div></div>
+<div class="ttc" id="astructModel_html_aa83f23ae762f2e8b616405f6029cd3c7"><div class="ttname"><a href="structModel.html#aa83f23ae762f2e8b616405f6029cd3c7">Model::ExpCoeff</a></div><div class="ttdeci">std::vector&lt; double &gt; ExpCoeff</div><div class="ttdef"><b>Definition:</b> GMM.hpp:19</div></div>
 <div class="ttc" id="aKmeans_8hpp_html"><div class="ttname"><a href="Kmeans_8hpp.html">Kmeans.hpp</a></div></div>
 <div class="ttc" id="aclassGMM_html_a8ce99499d67e722ac01bdb9698028a55"><div class="ttname"><a href="classGMM.html#a8ce99499d67e722ac01bdb9698028a55">GMM::GMM</a></div><div class="ttdeci">GMM()</div><div class="ttdoc">Construct a new GMM::GMM object.</div><div class="ttdef"><b>Definition:</b> GMM.hpp:58</div></div>
 <div class="ttc" id="aclassGMM_html_aa6b9e91ff8cc52dee704d726e2fb6b17"><div class="ttname"><a href="classGMM.html#aa6b9e91ff8cc52dee704d726e2fb6b17">GMM::AddModel</a></div><div class="ttdeci">bool AddModel(const std::string &amp;name)</div><div class="ttdoc">Create new statistical Model with initial parameters.</div><div class="ttdef"><b>Definition:</b> GMM.hpp:406</div></div>
 <div class="ttc" id="aclassGMM_html_a848577e31e4d25eb052a9a1a88c19078"><div class="ttname"><a href="classGMM.html#a848577e31e4d25eb052a9a1a88c19078">GMM::Expectation_Maximation</a></div><div class="ttdeci">int Expectation_Maximation(const std::vector&lt; std::vector&lt; double &gt; &gt; melCepData, size_t frameCount)</div><div class="ttdoc">Train the GMM with EM-Algorithm E: estimation step M: maximation step.</div><div class="ttdef"><b>Definition:</b> GMM.hpp:95</div></div>
-<div class="ttc" id="astructModel_html_a10f84a79cb6dea5f81b80eaade45d003"><div class="ttname"><a href="structModel.html#a10f84a79cb6dea5f81b80eaade45d003">Model::weight</a></div><div class="ttdeci">std::vector&lt; double &gt; weight</div><div class="ttdef"><b>Definition:</b> GMM.hpp:15</div></div>
+<div class="ttc" id="astructModel_html_a5e59c61ea690aa8d612f1ddd5f878591"><div class="ttname"><a href="structModel.html#a5e59c61ea690aa8d612f1ddd5f878591">Model::covariance</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; double &gt; &gt; covariance</div><div class="ttdef"><b>Definition:</b> GMM.hpp:17</div></div>
+<div class="ttc" id="astructModel_html_a35c8a4193486dbae7b84b1023cf2d4b9"><div class="ttname"><a href="structModel.html#a35c8a4193486dbae7b84b1023cf2d4b9">Model::weight</a></div><div class="ttdeci">std::vector&lt; double &gt; weight</div><div class="ttdef"><b>Definition:</b> GMM.hpp:15</div></div>
 <div class="ttc" id="aclassGMM_html"><div class="ttname"><a href="classGMM.html">GMM</a></div><div class="ttdef"><b>Definition:</b> GMM.hpp:22</div></div>
 <div class="ttc" id="astructModel_html"><div class="ttname"><a href="structModel.html">Model</a></div><div class="ttdef"><b>Definition:</b> GMM.hpp:13</div></div>
 <div class="ttc" id="aclassGMM_html_ad6cdf92d962cf8dcb0d87ba74467d8ec"><div class="ttname"><a href="classGMM.html#ad6cdf92d962cf8dcb0d87ba74467d8ec">GMM::~GMM</a></div><div class="ttdeci">virtual ~GMM()</div><div class="ttdef"><b>Definition:</b> GMM.hpp:73</div></div>

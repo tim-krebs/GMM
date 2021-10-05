@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kmeans_111',['Kmeans',['../classKmeans.html',1,'']]]
+  ['hmm_116',['HMM',['../classHMM.html',1,'']]]
 ];
